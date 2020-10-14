@@ -6,13 +6,10 @@ export default class Url {
   id: number;
 
   @Column()
-  code: string;
+  short_code: string;
 
   @Column()
   long_url: string;
-
-  @Column()
-  short_url: string;
 
   @Column()
   clicks_count: number;

@@ -14,15 +14,11 @@ export class createUrlsTable1602639183011 implements MigrationInterface {
           generationStrategy: 'increment'
         },
         {
-          name: 'code',
+          name: 'short_code',
           type: 'varchar',
         },
         {
           name: 'long_url',
-          type: 'varchar',
-        },
-        {
-          name: 'short_url',
           type: 'varchar',
         },
         {

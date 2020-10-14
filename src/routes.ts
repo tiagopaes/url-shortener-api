@@ -4,6 +4,6 @@ import UrlController from './controllers/UrlController';
 const routes = Router();
 
 routes.post('/', UrlController.create);
-routes.get('/:code', UrlController.redirect);
+routes.get('/:short_code', UrlController.redirect);
 
 export default routes;

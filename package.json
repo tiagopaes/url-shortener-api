@@ -2,10 +2,9 @@
   "name": "url-shortener-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "tsc": "tsc",
-    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "keywords": [],
